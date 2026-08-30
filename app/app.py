@@ -14,7 +14,6 @@ def get_db_connection():
     )
     return conn
 
-# إنشاء الجدول تلقائياً في حال عدم وجوده
 def init_db():
     try:
         conn = get_db_connection()
